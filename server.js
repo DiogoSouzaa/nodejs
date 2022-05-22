@@ -1,9 +1,10 @@
 express = require('express');
 path = require('path');
 mustache = require('mustache-express');
+dotenv = require('dotenv');
 mainRoutes = require('./routes/index');
 
-
+dotenv.config();
 const server = express();
 
 server.set('view engine', 'mustache');
@@ -22,5 +23,5 @@ server.use((req, res)=>{
 });
 
 
-server.listen(80);
+server.listen(process.env.PORT);
 
