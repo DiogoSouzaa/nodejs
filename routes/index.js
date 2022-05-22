@@ -2,9 +2,7 @@ const express  = require('express');
 const Router = require('Router');
 
 const home = require('../controllers/homeController');
-
 const info = require('../controllers/infoController');
-
 const user = require('../controllers/userController')
 
 const router = Router();
