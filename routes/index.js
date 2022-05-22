@@ -9,7 +9,7 @@ const user = require('../controllers/userController')
 
 const router = Router();
 
-router.get('/', home);
+router.get('/', home.home);
 router.get('/contato', info.contato );
 router.get('/sobre', info.sobre);
 router.get('/nome',user.nome);

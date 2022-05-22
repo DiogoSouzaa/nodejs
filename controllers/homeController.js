@@ -25,4 +25,4 @@ const express = require('express');
     });
 };
 
-module.exports = home;
+module.exports.home = home;
