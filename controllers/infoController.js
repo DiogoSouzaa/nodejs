@@ -8,5 +8,5 @@ const sobre =  (req, res)=>{
     res.render('pages/sobre');
 };
 
-module.exports = contato;
-module.exports = sobre;
+module.exports.contato = contato;
+module.exports.sobre = sobre;

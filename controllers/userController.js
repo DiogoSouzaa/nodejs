@@ -31,6 +31,6 @@ const idadeAction = (req, res)=> {
 };
 
 
-module.exports = nome;
-module.exports = idadeForm;
-module.exports = idadeAction;
+module.exports.nome = nome;
+module.exports.idadeForm = idadeForm;
+module.exports.idadeAction = idadeAction;
